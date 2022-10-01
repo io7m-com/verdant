@@ -16,7 +16,7 @@
 
 [language cedarbridge 1 0]
 
-[package com.io7m.verdant.protocol.versions.cb]
+[package com.io7m.verdant.core.cb]
 
 [import com.io7m.cedarbridge cb]
 

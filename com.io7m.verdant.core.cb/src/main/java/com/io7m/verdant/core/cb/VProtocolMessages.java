@@ -20,9 +20,9 @@ package com.io7m.verdant.core.cb;
 import com.io7m.cedarbridge.runtime.api.CBList;
 import com.io7m.cedarbridge.runtime.api.CBSerializationContextType;
 import com.io7m.cedarbridge.runtime.bssio.CBSerializationContextBSSIO;
-import com.io7m.idstore.protocol.versions.cb.V1ProtocolsSupported;
-import com.io7m.idstore.protocol.versions.cb.VContainerVersion;
-import com.io7m.idstore.protocol.versions.cb.VProtocolId;
+import com.io7m.verdant.protocol.versions.cb.V1ProtocolsSupported;
+import com.io7m.verdant.protocol.versions.cb.VContainerVersion;
+import com.io7m.verdant.protocol.versions.cb.VProtocolId;
 import com.io7m.jbssio.api.BSSReaderProviderType;
 import com.io7m.jbssio.api.BSSWriterProviderType;
 import com.io7m.verdant.core.VProtocolException;
@@ -125,11 +125,11 @@ public final class VProtocolMessages
     );
   }
 
-  private static com.io7m.idstore.protocol.versions.cb.VProtocolSupported
+  private static com.io7m.verdant.protocol.versions.cb.VProtocolSupported
   serializeSupported(
     final VProtocolSupported v)
   {
-    return new com.io7m.idstore.protocol.versions.cb.VProtocolSupported(
+    return new com.io7m.verdant.protocol.versions.cb.VProtocolSupported(
       serializeId(v.id()),
       unsigned32(v.versionMajor()),
       unsigned32(v.versionMinor()),
@@ -159,7 +159,7 @@ public final class VProtocolMessages
   }
 
   private static VProtocolSupported convertVersion(
-    final com.io7m.idstore.protocol.versions.cb.VProtocolSupported version)
+    final com.io7m.verdant.protocol.versions.cb.VProtocolSupported version)
   {
     return new VProtocolSupported(
       convertUUID(version.fieldId()),

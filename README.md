@@ -22,8 +22,8 @@ A client connecting to a root endpoint reads a binary structure delivered with
 the content type `application/verdant+cedarbridge`.
 
 The protocol is specified using the [cedarbridge](https://github.com/io7m/cedarbridge)
-specification language. Briefly: All values are delivered in
-[big endian](https://en.wikipedia.org/wiki/Endianness)
+specification language using the canonical binary encoding. Briefly: All values
+are delivered in [big endian](https://en.wikipedia.org/wiki/Endianness)
 byte order. Strings are encoded as a 32-bit unsigned integer representing the
 number of bytes the string data requires, followed by the UTF-8 encoded bytes of
 the string. Lists are encoded as a 32-bit unsigned integer representing the

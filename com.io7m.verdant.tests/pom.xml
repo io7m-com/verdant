@@ -9,7 +9,7 @@
   <parent>
     <artifactId>com.io7m.verdant</artifactId>
     <groupId>com.io7m.verdant</groupId>
-    <version>0.0.2-SNAPSHOT</version>
+    <version>1.0.0</version>
   </parent>
 
   <artifactId>com.io7m.verdant.tests</artifactId>

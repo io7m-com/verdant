@@ -8,12 +8,12 @@
   <parent>
     <groupId>com.io7m.primogenitor</groupId>
     <artifactId>com.io7m.primogenitor.full</artifactId>
-    <version>7.1.1</version>
+    <version>7.5.0</version>
   </parent>
 
   <groupId>com.io7m.verdant</groupId>
   <artifactId>com.io7m.verdant</artifactId>
-  <version>0.0.1</version>
+  <version>1.0.0</version>
 
   <packaging>pom</packaging>
   <name>com.io7m.verdant</name>
@@ -27,17 +27,16 @@
   </modules>
 
   <properties>
-    <com.io7m.anethum.version>0.0.2</com.io7m.anethum.version>
-    <com.io7m.cedarbridge.version>0.0.9</com.io7m.cedarbridge.version>
-    <com.io7m.jbssio.version>1.1.1</com.io7m.jbssio.version>
+    <com.io7m.cedarbridge.version>1.2.0</com.io7m.cedarbridge.version>
+    <com.io7m.jbssio.version>2.0.0</com.io7m.jbssio.version>
     <io7m.api.previousVersion>0.0.1-SNAPSHOT</io7m.api.previousVersion>
-    <logback.version>1.4.1</logback.version>
-    <slf4j.version>2.0.1</slf4j.version>
+    <logback.version>1.4.7</logback.version>
+    <slf4j.version>2.0.7</slf4j.version>
   </properties>
 
   <licenses>
     <license>
-      <name>ISC License</name>
+      <name>ISC</name>
       <url>https://www.io7m.com/license/isc.txt</url>
     </license>
   </licenses>
@@ -102,12 +101,12 @@
       <dependency>
         <groupId>org.junit.jupiter</groupId>
         <artifactId>junit-jupiter-api</artifactId>
-        <version>5.9.0</version>
+        <version>5.9.3</version>
       </dependency>
       <dependency>
         <groupId>org.junit.jupiter</groupId>
         <artifactId>junit-jupiter-engine</artifactId>
-        <version>5.9.0</version>
+        <version>5.9.3</version>
       </dependency>
       <dependency>
         <groupId>org.slf4j</groupId>
@@ -127,17 +126,17 @@
       <dependency>
         <groupId>net.jqwik</groupId>
         <artifactId>jqwik-api</artifactId>
-        <version>1.6.5</version>
+        <version>1.7.3</version>
       </dependency>
       <dependency>
         <groupId>net.jqwik</groupId>
         <artifactId>jqwik-engine</artifactId>
-        <version>1.6.5</version>
+        <version>1.7.3</version>
       </dependency>
       <dependency>
         <groupId>commons-io</groupId>
         <artifactId>commons-io</artifactId>
-        <version>2.11.0</version>
+        <version>2.13.0</version>
       </dependency>
 
       <dependency>
@@ -168,7 +167,7 @@
       <dependency>
         <groupId>com.io7m.primogenitor</groupId>
         <artifactId>com.io7m.primogenitor.support</artifactId>
-        <version>7.1.1</version>
+        <version>7.7.0</version>
       </dependency>
       <dependency>
         <groupId>org.slf4j</groupId>

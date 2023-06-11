@@ -13,7 +13,7 @@
 
   <groupId>com.io7m.verdant</groupId>
   <artifactId>com.io7m.verdant</artifactId>
-  <version>0.0.2-SNAPSHOT</version>
+  <version>1.0.0</version>
 
   <packaging>pom</packaging>
   <name>com.io7m.verdant</name>

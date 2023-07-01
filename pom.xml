@@ -8,7 +8,7 @@
   <parent>
     <groupId>com.io7m.primogenitor</groupId>
     <artifactId>com.io7m.primogenitor.full</artifactId>
-    <version>7.5.0</version>
+    <version>8.0.0-beta0001</version>
   </parent>
 
   <groupId>com.io7m.verdant</groupId>
@@ -30,7 +30,7 @@
     <com.io7m.cedarbridge.version>1.2.0</com.io7m.cedarbridge.version>
     <com.io7m.jbssio.version>2.0.0</com.io7m.jbssio.version>
     <io7m.api.previousVersion>1.0.0</io7m.api.previousVersion>
-    <logback.version>1.4.7</logback.version>
+    <logback.version>1.4.8</logback.version>
     <slf4j.version>2.0.7</slf4j.version>
   </properties>
 
@@ -167,7 +167,7 @@
       <dependency>
         <groupId>com.io7m.primogenitor</groupId>
         <artifactId>com.io7m.primogenitor.support</artifactId>
-        <version>7.7.0</version>
+        <version>8.0.0-beta0001</version>
       </dependency>
       <dependency>
         <groupId>org.slf4j</groupId>

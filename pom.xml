@@ -30,6 +30,7 @@
     <com.io7m.cedarbridge.version>1.2.0</com.io7m.cedarbridge.version>
     <com.io7m.jbssio.version>2.0.0</com.io7m.jbssio.version>
     <io7m.api.previousVersion>1.0.0</io7m.api.previousVersion>
+    <io7m.java.targetJavaVersion>21</io7m.java.targetJavaVersion>
     <logback.version>1.4.14</logback.version>
     <slf4j.version>2.0.10</slf4j.version>
   </properties>

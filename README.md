@@ -3,16 +3,16 @@ verdant
 
 [![Maven Central](https://img.shields.io/maven-central/v/com.io7m.verdant/com.io7m.verdant.svg?style=flat-square)](http://search.maven.org/#search%7Cga%7C1%7Cg%3A%22com.io7m.verdant%22)
 [![Maven Central (snapshot)](https://img.shields.io/nexus/s/com.io7m.verdant/com.io7m.verdant?server=https%3A%2F%2Fs01.oss.sonatype.org&style=flat-square)](https://s01.oss.sonatype.org/content/repositories/snapshots/com/io7m/verdant/)
-[![Codecov](https://img.shields.io/codecov/c/github/io7m/verdant.svg?style=flat-square)](https://codecov.io/gh/io7m/verdant)
+[![Codecov](https://img.shields.io/codecov/c/github/io7m-com/verdant.svg?style=flat-square)](https://codecov.io/gh/io7m-com/verdant)
 
 ![com.io7m.verdant](./src/site/resources/verdant.jpg?raw=true)
 
 | JVM | Platform | Status |
 |-----|----------|--------|
-| OpenJDK (Temurin) Current | Linux | [![Build (OpenJDK (Temurin) Current, Linux)](https://img.shields.io/github/actions/workflow/status/io7m/verdant/main.linux.temurin.current.yml)](https://github.com/io7m/verdant/actions?query=workflow%3Amain.linux.temurin.current)|
-| OpenJDK (Temurin) LTS | Linux | [![Build (OpenJDK (Temurin) LTS, Linux)](https://img.shields.io/github/actions/workflow/status/io7m/verdant/main.linux.temurin.lts.yml)](https://github.com/io7m/verdant/actions?query=workflow%3Amain.linux.temurin.lts)|
-| OpenJDK (Temurin) Current | Windows | [![Build (OpenJDK (Temurin) Current, Windows)](https://img.shields.io/github/actions/workflow/status/io7m/verdant/main.windows.temurin.current.yml)](https://github.com/io7m/verdant/actions?query=workflow%3Amain.windows.temurin.current)|
-| OpenJDK (Temurin) LTS | Windows | [![Build (OpenJDK (Temurin) LTS, Windows)](https://img.shields.io/github/actions/workflow/status/io7m/verdant/main.windows.temurin.lts.yml)](https://github.com/io7m/verdant/actions?query=workflow%3Amain.windows.temurin.lts)|
+| OpenJDK (Temurin) Current | Linux | [![Build (OpenJDK (Temurin) Current, Linux)](https://img.shields.io/github/actions/workflow/status/io7m-com/verdant/main.linux.temurin.current.yml)](https://www.github.com/io7m-com/verdant/actions?query=workflow%3Amain.linux.temurin.current)|
+| OpenJDK (Temurin) LTS | Linux | [![Build (OpenJDK (Temurin) LTS, Linux)](https://img.shields.io/github/actions/workflow/status/io7m-com/verdant/main.linux.temurin.lts.yml)](https://www.github.com/io7m-com/verdant/actions?query=workflow%3Amain.linux.temurin.lts)|
+| OpenJDK (Temurin) Current | Windows | [![Build (OpenJDK (Temurin) Current, Windows)](https://img.shields.io/github/actions/workflow/status/io7m-com/verdant/main.windows.temurin.current.yml)](https://www.github.com/io7m-com/verdant/actions?query=workflow%3Amain.windows.temurin.current)|
+| OpenJDK (Temurin) LTS | Windows | [![Build (OpenJDK (Temurin) LTS, Windows)](https://img.shields.io/github/actions/workflow/status/io7m-com/verdant/main.windows.temurin.lts.yml)](https://www.github.com/io7m-com/verdant/actions?query=workflow%3Amain.windows.temurin.lts)|
 
 
 ## Description
@@ -23,7 +23,7 @@ exposed by a set of HTTP endpoints.
 A client connecting to a root endpoint reads a binary structure delivered with
 the content type `application/verdant+cedarbridge`.
 
-The protocol is specified using the [cedarbridge](https://github.com/io7m/cedarbridge)
+The protocol is specified using the [cedarbridge](https://www.github.com/io7m-com/cedarbridge)
 specification language using the canonical binary encoding. Briefly: All values
 are delivered in [big endian](https://en.wikipedia.org/wiki/Endianness)
 byte order. Strings are encoded as a 32-bit unsigned integer representing the

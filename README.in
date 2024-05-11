@@ -1,6 +1,18 @@
 
+## verdant
 
-## Description
+The `verdant` package provides a binary protocol for advertising HTTP endpoint
+protocol versions.
+
+### Features
+
+* Written in pure Java 17.
+* [OSGi](https://www.osgi.org/) ready.
+* [JPMS](https://en.wikipedia.org/wiki/Java_Platform_Module_System) ready.
+* ISC license.
+* High-coverage automated test suite.
+
+### Description
 
 `verdant` is a trivial protocol for announcing a set of protocols
 exposed by a set of HTTP endpoints.
@@ -8,7 +20,7 @@ exposed by a set of HTTP endpoints.
 A client connecting to a root endpoint reads a binary structure delivered with
 the content type `application/verdant+cedarbridge`.
 
-The protocol is specified using the [cedarbridge](https://github.com/io7m/cedarbridge)
+The protocol is specified using the [cedarbridge](https://www.github.com/io7m-com/cedarbridge)
 specification language using the canonical binary encoding. Briefly: All values
 are delivered in [big endian](https://en.wikipedia.org/wiki/Endianness)
 byte order. Strings are encoded as a 32-bit unsigned integer representing the

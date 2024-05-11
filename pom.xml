@@ -8,12 +8,12 @@
   <parent>
     <groupId>com.io7m.primogenitor</groupId>
     <artifactId>com.io7m.primogenitor.full</artifactId>
-    <version>7.5.0</version>
+    <version>8.2.0</version>
   </parent>
 
   <groupId>com.io7m.verdant</groupId>
   <artifactId>com.io7m.verdant</artifactId>
-  <version>1.0.0</version>
+  <version>1.0.1</version>
 
   <packaging>pom</packaging>
   <name>com.io7m.verdant</name>
@@ -27,11 +27,17 @@
   </modules>
 
   <properties>
+    <!-- Configuration -->
+    <io7m.api.previousVersion>1.0.0</io7m.api.previousVersion>
+    <io7m.java.targetJavaVersion>17</io7m.java.targetJavaVersion>
+
+    <!-- io7m dependencies. -->
     <com.io7m.cedarbridge.version>1.2.0</com.io7m.cedarbridge.version>
-    <com.io7m.jbssio.version>2.0.0</com.io7m.jbssio.version>
-    <io7m.api.previousVersion>0.0.1-SNAPSHOT</io7m.api.previousVersion>
-    <logback.version>1.4.7</logback.version>
-    <slf4j.version>2.0.7</slf4j.version>
+    <com.io7m.jbssio.version>2.1.0</com.io7m.jbssio.version>
+
+    <!-- Third-party dependencies. -->
+    <logback.version>1.5.6</logback.version>
+    <slf4j.version>2.0.13</slf4j.version>
   </properties>
 
   <licenses>
@@ -42,9 +48,9 @@
   </licenses>
 
   <scm>
-    <url>https://www.github.com/io7m/verdant</url>
-    <connection>scm:git:https://github.com/io7m/verdant</connection>
-    <developerConnection>scm:git:https://github.com/io7m/verdant</developerConnection>
+    <url>https://www.github.com/io7m-com/verdant</url>
+    <connection>scm:git:https://www.github.com/io7m-com/verdant</connection>
+    <developerConnection>scm:git:https://www.github.com/io7m-com/verdant</developerConnection>
   </scm>
 
   <developers>
@@ -57,7 +63,7 @@
   </developers>
 
   <issueManagement>
-    <url>https://www.github.com/io7m/verdant/issues</url>
+    <url>https://www.github.com/io7m-com/verdant/issues</url>
     <system>GitHub Issues</system>
   </issueManagement>
 
@@ -79,7 +85,7 @@
 
   <ciManagement>
     <system>GitHub Actions</system>
-    <url>https://github.com/verdant/actions</url>
+    <url>https://www.github.com/io7m-com/verdant/actions</url>
   </ciManagement>
 
   <prerequisites>
@@ -101,12 +107,12 @@
       <dependency>
         <groupId>org.junit.jupiter</groupId>
         <artifactId>junit-jupiter-api</artifactId>
-        <version>5.9.3</version>
+        <version>5.10.2</version>
       </dependency>
       <dependency>
         <groupId>org.junit.jupiter</groupId>
         <artifactId>junit-jupiter-engine</artifactId>
-        <version>5.9.3</version>
+        <version>5.10.2</version>
       </dependency>
       <dependency>
         <groupId>org.slf4j</groupId>
@@ -126,17 +132,17 @@
       <dependency>
         <groupId>net.jqwik</groupId>
         <artifactId>jqwik-api</artifactId>
-        <version>1.7.3</version>
+        <version>1.8.4</version>
       </dependency>
       <dependency>
         <groupId>net.jqwik</groupId>
         <artifactId>jqwik-engine</artifactId>
-        <version>1.7.3</version>
+        <version>1.8.4</version>
       </dependency>
       <dependency>
         <groupId>commons-io</groupId>
         <artifactId>commons-io</artifactId>
-        <version>2.13.0</version>
+        <version>2.16.1</version>
       </dependency>
 
       <dependency>
@@ -167,7 +173,7 @@
       <dependency>
         <groupId>com.io7m.primogenitor</groupId>
         <artifactId>com.io7m.primogenitor.support</artifactId>
-        <version>7.7.0</version>
+        <version>8.2.0</version>
       </dependency>
       <dependency>
         <groupId>org.slf4j</groupId>

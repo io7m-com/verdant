@@ -29,7 +29,7 @@
   <properties>
     <!-- Configuration -->
     <io7m.api.previousVersion>1.0.0</io7m.api.previousVersion>
-    <io7m.java.targetJavaVersion>21</io7m.java.targetJavaVersion>
+    <io7m.java.targetJavaVersion>17</io7m.java.targetJavaVersion>
 
     <!-- io7m dependencies. -->
     <com.io7m.cedarbridge.version>1.2.0</com.io7m.cedarbridge.version>

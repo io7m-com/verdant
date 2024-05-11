@@ -1,6 +1,18 @@
 
+## verdant
 
-## Description
+The `verdant` package provides a binary protocol for advertising HTTP endpoint
+protocol versions.
+
+### Features
+
+* Written in pure Java 21.
+* [OSGi](https://www.osgi.org/) ready.
+* [JPMS](https://en.wikipedia.org/wiki/Java_Platform_Module_System) ready.
+* ISC license.
+* High-coverage automated test suite.
+
+### Description
 
 `verdant` is a trivial protocol for announcing a set of protocols
 exposed by a set of HTTP endpoints.

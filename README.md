@@ -15,8 +15,20 @@ verdant
 | OpenJDK (Temurin) Current | Windows | [![Build (OpenJDK (Temurin) Current, Windows)](https://img.shields.io/github/actions/workflow/status/io7m-com/verdant/main.windows.temurin.current.yml)](https://www.github.com/io7m-com/verdant/actions?query=workflow%3Amain.windows.temurin.current)|
 | OpenJDK (Temurin) LTS | Windows | [![Build (OpenJDK (Temurin) LTS, Windows)](https://img.shields.io/github/actions/workflow/status/io7m-com/verdant/main.windows.temurin.lts.yml)](https://www.github.com/io7m-com/verdant/actions?query=workflow%3Amain.windows.temurin.lts)|
 
+## verdant
 
-## Description
+The `verdant` package provides a binary protocol for advertising HTTP endpoint
+protocol versions.
+
+### Features
+
+* Written in pure Java 21.
+* [OSGi](https://www.osgi.org/) ready.
+* [JPMS](https://en.wikipedia.org/wiki/Java_Platform_Module_System) ready.
+* ISC license.
+* High-coverage automated test suite.
+
+### Description
 
 `verdant` is a trivial protocol for announcing a set of protocols
 exposed by a set of HTTP endpoints.

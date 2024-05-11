@@ -13,7 +13,7 @@
 
   <groupId>com.io7m.verdant</groupId>
   <artifactId>com.io7m.verdant</artifactId>
-  <version>1.1.0-SNAPSHOT</version>
+  <version>1.0.1-SNAPSHOT</version>
 
   <packaging>pom</packaging>
   <name>com.io7m.verdant</name>
@@ -27,10 +27,15 @@
   </modules>
 
   <properties>
-    <com.io7m.cedarbridge.version>1.2.0</com.io7m.cedarbridge.version>
-    <com.io7m.jbssio.version>2.0.0</com.io7m.jbssio.version>
+    <!-- Configuration -->
     <io7m.api.previousVersion>1.0.0</io7m.api.previousVersion>
     <io7m.java.targetJavaVersion>21</io7m.java.targetJavaVersion>
+
+    <!-- io7m dependencies. -->
+    <com.io7m.cedarbridge.version>1.2.0</com.io7m.cedarbridge.version>
+    <com.io7m.jbssio.version>2.0.0</com.io7m.jbssio.version>
+
+    <!-- Third-party dependencies. -->
     <logback.version>1.5.6</logback.version>
     <slf4j.version>2.0.13</slf4j.version>
   </properties>
@@ -80,7 +85,7 @@
 
   <ciManagement>
     <system>GitHub Actions</system>
-    <url>https://github.com/verdant/actions</url>
+    <url>https://www.github.com/io7m-com/verdant/actions</url>
   </ciManagement>
 
   <prerequisites>

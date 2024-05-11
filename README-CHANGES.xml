@@ -6,9 +6,17 @@
         <c:change date="2023-06-11T00:00:00+00:00" summary="Initial major release."/>
       </c:changes>
     </c:release>
-    <c:release date="2024-05-11T13:23:42+00:00" is-open="true" ticket-system="com.github.io7m.verdant" version="1.0.1">
+    <c:release date="2024-05-11T13:31:21+00:00" is-open="false" ticket-system="com.github.io7m.verdant" version="1.0.1">
       <c:changes>
-        <c:change date="2024-05-11T13:23:42+00:00" summary="Move to new organization."/>
+        <c:change date="2024-04-19T00:00:00+00:00" summary="Update commons-io:commons-io:2.15.1 → 2.16.1."/>
+        <c:change date="2024-04-19T00:00:00+00:00" summary="Update net.jqwik:jqwik-api:1.8.2 → 1.8.4."/>
+        <c:change date="2024-04-19T00:00:00+00:00" summary="Update logback.version:1.4.14 → 1.5.6."/>
+        <c:change date="2024-04-19T00:00:00+00:00" summary="Update org.junit.jupiter:junit-jupiter-engine:5.10.1 → 5.10.2."/>
+        <c:change date="2024-04-20T00:00:00+00:00" summary="Update slf4j.version:2.0.10 → 2.0.13."/>
+        <c:change date="2024-04-22T00:00:00+00:00" summary="Update org.junit.jupiter:junit-jupiter-api:5.10.1 → 5.10.2."/>
+        <c:change date="2024-04-22T00:00:00+00:00" summary="Update net.jqwik:jqwik-engine:1.8.2 → 1.8.4."/>
+        <c:change date="2024-05-11T00:00:00+00:00" summary="Move to new organization."/>
+        <c:change date="2024-05-11T00:00:00+00:00" summary="Update com.io7m.jbssio.version:2.0.0 → 2.1.0."/>
       </c:changes>
     </c:release>
   </c:releases>

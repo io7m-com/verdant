@@ -36,7 +36,7 @@
     <com.io7m.jbssio.version>2.1.0</com.io7m.jbssio.version>
 
     <!-- Third-party dependencies. -->
-    <logback.version>1.5.9</logback.version>
+    <logback.version>1.5.10</logback.version>
     <slf4j.version>2.0.16</slf4j.version>
   </properties>
 
